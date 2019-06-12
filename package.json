@@ -1,0 +1,20 @@
+{
+  "name": "xp-arquitetura",
+  "version": "1.0.0",
+  "description": "Boilerplate desenvolvido com base nas especificações do teste; build com `webpack`.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffverona/xp-arquitetura.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffverona/xp-arquitetura/issues"
+  },
+  "homepage": "https://github.com/jeffverona/xp-arquitetura#readme"
+}
