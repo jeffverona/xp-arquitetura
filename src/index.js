@@ -1,19 +1,6 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { render } from 'react-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
-import { createGlobalStyle } from 'styled-components';
-
-import Header from './components/header';
-import Main from './components/main';
-import Footer from './components/footer';
-import App from './App';
-import routes from './routes';
-import reset from './constants/css/reset';
-import global from './constants/css/global';
-
-const GlobalStyle = createGlobalStyle`${reset}${global}`;
-
-
+import App from './App.jsx';
 
 render(
   React.createElement(App),

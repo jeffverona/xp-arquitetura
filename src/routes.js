@@ -1,7 +1,7 @@
-import Contact from './containers/contact';
-import Home from './containers/home';
-import Product from './containers/product';
-import ProductList from './containers/productList';
+import Contact from './containers/contact/index.jsx';
+import Home from './containers/home/index.jsx';
+import Product from './containers/product/index.jsx';
+import ProductList from './containers/productList/index.jsx';
 
 export default [
   {
