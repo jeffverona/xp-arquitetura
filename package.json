@@ -1,22 +1,22 @@
 {
   "name": "xp-arquitetura",
-  "version": "1.0.0",
-  "description": "Boilerplate desenvolvido com base nas especificações do teste; build com `webpack`.",
+  "version": "0.0.1",
+  "author": "Munim Dibosh",
+  "license": "MIT",
+  "description": "XP Investimentos | Teste de Arquitetura.",
   "main": "index.js",
+  "jest": {
+    "setupTestFrameworkScriptFile": "./setup.enzyme.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-dev": "rm -rf dist/ && webpack --progress --mode=development",
+    "build-prod": "rm -rf dist/ && webpack --progress --mode=production",
+    "start": "webpack-dev-server --mode development",
+    "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jeffverona/xp-arquitetura.git"
+  "engines": {
+    "node": ">=6.11.5"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jeffverona/xp-arquitetura/issues"
-  },
-  "homepage": "https://github.com/jeffverona/xp-arquitetura#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "react": "^16.8.0",
